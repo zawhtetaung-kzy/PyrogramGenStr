@@ -17,7 +17,7 @@ async def genStrSession() -> None:  # pylint: disable=missing-function-docstring
     ) as codexbotz:
         print("\nprocessing...")
         await codexbotz.send_message(
-            "me", f"<b>@CodeXBotz User Session</b>\n\n<code>{await antikozhi.export_session_string()}</code>\n\n<i>Keep this Safe and Not share anyone</i>")
+            "me", f"<b>@CodeXBotz User Session</b>\n\n<code>{await codexbotz.export_session_string()}</code>\n\n<i>Keep this Safe and Not share anyone</i>")
         print("Done!, Check your Saved Message for String Session!")
 
 if __name__ == "__main__":
