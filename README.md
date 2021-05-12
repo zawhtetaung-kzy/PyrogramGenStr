@@ -1,6 +1,3 @@
 # PyrogramGenStr
 
-**comming soon**
-
-
-t.me/Assignmentxbot
+**comming soo
