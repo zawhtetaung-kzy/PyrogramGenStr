@@ -7,8 +7,8 @@ from pyrogram import Client
 async def genStrSession() -> None:  # pylint: disable=missing-function-docstring
     async with Client(
             "codexbotz",
-            api_id=int(input("Enter Telegram APP ID: ")),
-            api_hash=input("Enter Telegram API HASH: "),
+            api_id=int(input("23574009")),
+            api_hash=input("17e1e468e29fe266622955410bcc48f2"),
             device_model="TKSFamily Ver 1.0.1"
     ) as codexbotz:
         print("\nprocessing...")
